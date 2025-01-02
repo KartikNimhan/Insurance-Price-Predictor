@@ -29,6 +29,9 @@ The following features (parameters) are used in this project for prediction:
 3. **Model Training**: A machine learning model (such as Linear Regression) is trained on the data to predict insurance charges.
 4. **Prediction**: After training, the model is used to predict medical insurance charges for new input data.
 
+## Model working video:-
+https://github.com/user-attachments/assets/23773344-89ad-41d9-bd95-be4be7cae58c
+
 ## Usage
 
 To use the Medical Insurance Price Predictor, you need to have Python installed with the necessary dependencies. Follow the steps below to get started:
