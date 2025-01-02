@@ -1,7 +1,3 @@
-Here's a comprehensive description for your README file that describes your project, its parameters, and usage:
-
----
-
 # Medical Insurance Price Predictor
 
 ## Project Overview
@@ -58,7 +54,7 @@ pip install -r requirements.txt
 To run the model and make predictions, you can execute the following Python script:
 
 ```bash
-python predict.py
+streamlit run app.py
 ```
 
 The script will use the pre-trained model to make predictions based on the input parameters.
@@ -97,7 +93,3 @@ Contributions to the project are welcome! If you'd like to contribute, please fo
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to adjust the details (like model specifics, dependencies, or instructions) according to your project setup. This structure should give a good foundation for your README file!
