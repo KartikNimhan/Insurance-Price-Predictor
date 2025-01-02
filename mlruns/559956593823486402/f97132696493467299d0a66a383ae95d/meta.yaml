@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/559956593823486402/f97132696493467299d0a66a383ae95d/artifacts
+end_time: 1735824573214
+entry_point_name: ''
+experiment_id: '559956593823486402'
+lifecycle_stage: active
+run_id: f97132696493467299d0a66a383ae95d
+run_name: nosy-ant-326
+run_uuid: f97132696493467299d0a66a383ae95d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735824567282
+status: 3
+tags: []
+user_id: Kartik Nimhan

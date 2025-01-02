@@ -1,0 +1,27 @@
+[ 2025-01-02 18:59:21,215 ] 49 root - INFO - Setting up MLflow...
+[ 2025-01-02 18:59:21,224 ] 58 root - INFO - MLflow setup completed with experiment: Medical Insurance Predictor
+[ 2025-01-02 18:59:21,224 ] 89 root - INFO - Starting data ingestion...
+[ 2025-01-02 18:59:24,538 ] 20 root - INFO - Data downloaded successfully to D:/My projects/Medical Insurane Predictor/data/raw_data\insurance.csv
+[ 2025-01-02 18:59:24,538 ] 93 root - INFO - Starting data preprocessing...
+[ 2025-01-02 18:59:24,583 ] 35 root - INFO - Data preprocessed and saved to D:/My projects/Medical Insurane Predictor/data/Processed_data\processed_data.csv
+[ 2025-01-02 18:59:24,583 ] 97 root - INFO - Starting model training...
+[ 2025-01-02 18:59:24,583 ] 74 root - INFO - Starting a new MLflow run...
+[ 2025-01-02 18:59:25,144 ] 99 root - INFO - Active MLflow run ID: 5b920b0b21da46eca550f48721432701
+[ 2025-01-02 18:59:27,265 ] 109 root - INFO - Data loaded successfully.
+[ 2025-01-02 18:59:27,265 ] 111 root - INFO - Data shape: (2772, 7)
+[ 2025-01-02 18:59:27,275 ] 112 root - INFO - Data sample:
+        age  sex       bmi  ...  smoker  region   charges
+0 -1.428353  NaN -0.457114  ...     NaN     NaN  0.298245
+1 -1.499381  NaN  0.500731  ...     NaN     NaN -0.949483
+2 -0.789099  NaN  0.375085  ...     NaN     NaN -0.725285
+3 -0.433959  NaN -1.304814  ...     NaN     NaN  0.717976
+4 -0.504987  NaN -0.297201  ...     NaN     NaN -0.773238
+
+[5 rows x 7 columns]
+[ 2025-01-02 18:59:27,275 ] 116 root - INFO - Missing values handled.
+[ 2025-01-02 18:59:27,277 ] 123 root - INFO - Categorical variables encoded.
+[ 2025-01-02 18:59:27,356 ] 139 root - INFO - Model training completed.
+[ 2025-01-02 18:59:27,359 ] 146 root - INFO - Model trained: RMSE = 0.9346278747349135, R2 = 0.15987237337389826
+[ 2025-01-02 18:59:33,213 ] 153 root - INFO - Model logged with MLflow.
+[ 2025-01-02 18:59:33,258 ] 157 root - INFO - Model saved at D:/My projects/Medical Insurane Predictor/notebook/mlruns/models/insurance_price_predictor.pkl
+[ 2025-01-02 18:59:33,258 ] 103 root - INFO - Process completed successfully.

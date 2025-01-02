@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/My%20projects/Medical%20Insurane%20Predictor/notebook/mlruns/184102361855232503/b030c23c665a40529bc53b7533ca5315/artifacts
+end_time: 1735814042320
+entry_point_name: ''
+experiment_id: '184102361855232503'
+lifecycle_stage: active
+run_id: b030c23c665a40529bc53b7533ca5315
+run_name: grandiose-rook-306
+run_uuid: b030c23c665a40529bc53b7533ca5315
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735814038124
+status: 3
+tags: []
+user_id: Kartik Nimhan

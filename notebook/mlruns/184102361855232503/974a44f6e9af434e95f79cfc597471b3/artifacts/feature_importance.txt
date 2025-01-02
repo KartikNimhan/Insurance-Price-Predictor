@@ -1,0 +1,9 @@
+Feature Importance Values
+-------------------------
+1. Age: 0.25
+2. BMI: 0.20
+3. Smoking: 0.15
+4. Children: 0.10
+5. Region: 0.10
+6. Sex: 0.08
+7. Expenses: 0.12

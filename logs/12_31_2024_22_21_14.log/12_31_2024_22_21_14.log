@@ -1,0 +1,17 @@
+[ 2024-12-31 22:21:18,671 ] 12 root - INFO - Starting data ingestion...
+[ 2024-12-31 22:21:21,616 ] 20 root - INFO - Data downloaded successfully to D:/My projects/Medical Insurane Predictor/data/raw_data\insurance.csv
+[ 2024-12-31 22:21:21,617 ] 16 root - INFO - Starting data preprocessing...
+[ 2024-12-31 22:21:21,654 ] 35 root - INFO - Data preprocessed and saved to D:/My projects/Medical Insurane Predictor/data/Processed_data\processed_data.csv
+[ 2024-12-31 22:21:21,655 ] 20 root - INFO - Starting model training...
+[ 2024-12-31 22:21:21,679 ] 23 root - INFO - Missing values in dataset:
+age            0
+sex         2772
+bmi            0
+children       0
+smoker      2772
+region      2772
+charges        0
+dtype: int64
+[ 2024-12-31 22:21:21,688 ] 61 root - ERROR - An error occurred during model training: Shape of passed values is (2772, 4), indices imply (2772, 7)
+[ 2024-12-31 22:21:21,689 ] 16 root - ERROR - Custom Exception: Error occurred in script [D:\My projects\Medical Insurane Predictor\src\mlProject\components\model_trainer.py] line number [27] error message [Shape of passed values is (2772, 4), indices imply (2772, 7)]
+[ 2024-12-31 22:21:21,689 ] 25 root - ERROR - Custom error occurred: Error occurred in script [D:\My projects\Medical Insurane Predictor\src\mlProject\components\model_trainer.py] line number [27] error message [Shape of passed values is (2772, 4), indices imply (2772, 7)]

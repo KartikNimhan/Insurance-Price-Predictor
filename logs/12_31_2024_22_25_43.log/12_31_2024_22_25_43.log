@@ -1,0 +1,13 @@
+[ 2024-12-31 22:25:48,362 ] 12 root - INFO - Starting data ingestion...
+[ 2024-12-31 22:25:51,432 ] 20 root - INFO - Data downloaded successfully to D:/My projects/Medical Insurane Predictor/data/raw_data\insurance.csv
+[ 2024-12-31 22:25:51,433 ] 16 root - INFO - Starting data preprocessing...
+[ 2024-12-31 22:25:51,500 ] 35 root - INFO - Data preprocessed and saved to D:/My projects/Medical Insurane Predictor/data/Processed_data\processed_data.csv
+[ 2024-12-31 22:25:51,501 ] 20 root - INFO - Starting model training...
+[ 2024-12-31 22:25:51,532 ] 23 root - INFO - Data loaded successfully.
+[ 2024-12-31 22:25:51,532 ] 27 root - INFO - Missing values handled.
+[ 2024-12-31 22:25:51,535 ] 34 root - INFO - Categorical variables encoded.
+[ 2024-12-31 22:25:52,995 ] 50 root - INFO - Model training completed.
+[ 2024-12-31 22:25:53,002 ] 55 root - INFO - Mean Squared Error: 0.8735292642315012
+[ 2024-12-31 22:26:02,592 ] 69 root - ERROR - An error occurred during model training: When an mlflow-artifacts URI was supplied, the tracking URI must be a valid http or https URI, but it was currently set to file:///D:/My%20projects/Medical%20Insurane%20Predictor/mlruns. Perhaps you forgot to set the tracking URI to the running MLflow server. To set the tracking URI, use either of the following methods:
+1. Set the MLFLOW_TRACKING_URI environment variable to the desired tracking URI. `export MLFLOW_TRACKING_URI=http://localhost:5000`
+2. Set the tracking URI programmatically by calling `mlflow.set_tracking_uri`. `mlflow.set_tracking_uri('http://localhost:5000')`

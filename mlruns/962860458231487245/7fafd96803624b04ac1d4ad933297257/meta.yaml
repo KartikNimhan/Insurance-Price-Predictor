@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/My%20projects/Medical%20Insurane%20Predictor/mlruns/962860458231487245/7fafd96803624b04ac1d4ad933297257/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '962860458231487245'
+lifecycle_stage: active
+run_id: 7fafd96803624b04ac1d4ad933297257
+run_name: resilient-tern-318
+run_uuid: 7fafd96803624b04ac1d4ad933297257
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735814235032
+status: 1
+tags: []
+user_id: Kartik Nimhan

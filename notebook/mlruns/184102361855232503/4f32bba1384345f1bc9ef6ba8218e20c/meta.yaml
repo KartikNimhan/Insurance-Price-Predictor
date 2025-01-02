@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/My%20projects/Medical%20Insurane%20Predictor/notebook/mlruns/184102361855232503/4f32bba1384345f1bc9ef6ba8218e20c/artifacts
+end_time: 1735814054049
+entry_point_name: ''
+experiment_id: '184102361855232503'
+lifecycle_stage: active
+run_id: 4f32bba1384345f1bc9ef6ba8218e20c
+run_name: amazing-shark-512
+run_uuid: 4f32bba1384345f1bc9ef6ba8218e20c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735814049952
+status: 3
+tags: []
+user_id: Kartik Nimhan

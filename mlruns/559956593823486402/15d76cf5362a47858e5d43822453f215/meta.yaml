@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/559956593823486402/15d76cf5362a47858e5d43822453f215/artifacts
+end_time: 1735826556922
+entry_point_name: ''
+experiment_id: '559956593823486402'
+lifecycle_stage: active
+run_id: 15d76cf5362a47858e5d43822453f215
+run_name: silent-sow-369
+run_uuid: 15d76cf5362a47858e5d43822453f215
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735826547526
+status: 3
+tags: []
+user_id: Kartik Nimhan

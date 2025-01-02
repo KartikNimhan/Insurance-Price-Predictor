@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/My%20projects/Medical%20Insurane%20Predictor/notebook/mlruns/184102361855232503/36eef18ff460455797b863d9f754875b/artifacts
+end_time: 1735749097370
+entry_point_name: ''
+experiment_id: '184102361855232503'
+lifecycle_stage: active
+run_id: 36eef18ff460455797b863d9f754875b
+run_name: traveling-hog-441
+run_uuid: 36eef18ff460455797b863d9f754875b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735749088921
+status: 3
+tags: []
+user_id: Kartik Nimhan

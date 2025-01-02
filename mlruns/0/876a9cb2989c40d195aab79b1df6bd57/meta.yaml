@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/876a9cb2989c40d195aab79b1df6bd57/artifacts
+end_time: 1735664105076
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 876a9cb2989c40d195aab79b1df6bd57
+run_name: bald-mule-736
+run_uuid: 876a9cb2989c40d195aab79b1df6bd57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735664094455
+status: 4
+tags: []
+user_id: Kartik Nimhan

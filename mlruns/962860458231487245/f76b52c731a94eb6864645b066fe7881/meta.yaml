@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/My%20projects/Medical%20Insurane%20Predictor/mlruns/962860458231487245/f76b52c731a94eb6864645b066fe7881/artifacts
+end_time: 1735824247699
+entry_point_name: ''
+experiment_id: '962860458231487245'
+lifecycle_stage: active
+run_id: f76b52c731a94eb6864645b066fe7881
+run_name: serious-turtle-242
+run_uuid: f76b52c731a94eb6864645b066fe7881
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735824245539
+status: 4
+tags: []
+user_id: Kartik Nimhan

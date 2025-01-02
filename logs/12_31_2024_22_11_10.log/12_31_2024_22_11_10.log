@@ -1,0 +1,6 @@
+[ 2024-12-31 22:11:19,831 ] 12 root - INFO - Starting data ingestion...
+[ 2024-12-31 22:11:23,621 ] 20 root - INFO - Data downloaded successfully to D:/My projects/Medical Insurane Predictor/data/raw_data\insurance.csv
+[ 2024-12-31 22:11:23,622 ] 16 root - INFO - Starting data preprocessing...
+[ 2024-12-31 22:11:23,700 ] 35 root - ERROR - An error occurred during data preprocessing: [Errno 13] Permission denied: 'D:/My projects/Medical Insurane Predictor/data\\Processed_data'
+[ 2024-12-31 22:11:23,700 ] 16 root - ERROR - Custom Exception: Error occurred in script [D:\My projects\Medical Insurane Predictor\src\mlProject\components\data_transformation.py] line number [32] error message [[Errno 13] Permission denied: 'D:/My projects/Medical Insurane Predictor/data\\Processed_data']
+[ 2024-12-31 22:11:23,701 ] 25 root - ERROR - Custom error occurred: Error occurred in script [D:\My projects\Medical Insurane Predictor\src\mlProject\components\data_transformation.py] line number [32] error message [[Errno 13] Permission denied: 'D:/My projects/Medical Insurane Predictor/data\\Processed_data']

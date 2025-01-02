@@ -1,0 +1,23 @@
+[ 2025-01-02 18:57:04,648 ] 49 root - INFO - Setting up MLflow...
+[ 2025-01-02 18:57:04,659 ] 58 root - INFO - MLflow setup completed with experiment: Medical Insurance Predictor
+[ 2025-01-02 18:57:04,659 ] 89 root - INFO - Starting data ingestion...
+[ 2025-01-02 18:57:07,753 ] 20 root - INFO - Data downloaded successfully to D:/My projects/Medical Insurane Predictor/data/raw_data\insurance.csv
+[ 2025-01-02 18:57:07,756 ] 93 root - INFO - Starting data preprocessing...
+[ 2025-01-02 18:57:07,836 ] 35 root - INFO - Data preprocessed and saved to D:/My projects/Medical Insurane Predictor/data/Processed_data\processed_data.csv
+[ 2025-01-02 18:57:07,837 ] 97 root - INFO - Starting model training...
+[ 2025-01-02 18:57:07,837 ] 74 root - INFO - Starting a new MLflow run...
+[ 2025-01-02 18:57:08,647 ] 99 root - INFO - Active MLflow run ID: 60c6912b627a4dbfac90b73146a23e65
+[ 2025-01-02 18:57:10,756 ] 106 root - INFO - Data loaded successfully.
+[ 2025-01-02 18:57:10,756 ] 108 root - INFO - Data shape: (2772, 7)
+[ 2025-01-02 18:57:10,769 ] 109 root - INFO - Data sample:
+        age  sex       bmi  ...  smoker  region   charges
+0 -1.428353  NaN -0.457114  ...     NaN     NaN  0.298245
+1 -1.499381  NaN  0.500731  ...     NaN     NaN -0.949483
+2 -0.789099  NaN  0.375085  ...     NaN     NaN -0.725285
+3 -0.433959  NaN -1.304814  ...     NaN     NaN  0.717976
+4 -0.504987  NaN -0.297201  ...     NaN     NaN -0.773238
+
+[5 rows x 7 columns]
+[ 2025-01-02 18:57:10,772 ] 114 root - INFO - Missing values handled.
+[ 2025-01-02 18:57:10,776 ] 121 root - INFO - Categorical variables encoded.
+[ 2025-01-02 18:57:10,784 ] 158 root - ERROR - An error occurred during model training: Run with UUID 60c6912b627a4dbfac90b73146a23e65 is already active. To start a new run, first end the current run with mlflow.end_run(). To start a nested run, call start_run with nested=True

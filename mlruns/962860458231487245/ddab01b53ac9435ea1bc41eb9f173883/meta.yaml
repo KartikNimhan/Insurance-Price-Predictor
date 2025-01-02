@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/My%20projects/Medical%20Insurane%20Predictor/mlruns/962860458231487245/ddab01b53ac9435ea1bc41eb9f173883/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '962860458231487245'
+lifecycle_stage: active
+run_id: ddab01b53ac9435ea1bc41eb9f173883
+run_name: receptive-lark-564
+run_uuid: ddab01b53ac9435ea1bc41eb9f173883
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735823996339
+status: 1
+tags: []
+user_id: Kartik Nimhan

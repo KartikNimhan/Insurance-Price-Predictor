@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/My%20projects/Medical%20Insurane%20Predictor/notebook/mlruns/184102361855232503/23390a1ce65b43e397e7423739ebca75/artifacts
+end_time: 1735748627028
+entry_point_name: ''
+experiment_id: '184102361855232503'
+lifecycle_stage: active
+run_id: 23390a1ce65b43e397e7423739ebca75
+run_name: whimsical-duck-450
+run_uuid: 23390a1ce65b43e397e7423739ebca75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735748619123
+status: 3
+tags: []
+user_id: Kartik Nimhan

@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/My%20projects/Medical%20Insurane%20Predictor/mlruns/962860458231487245/50725c3d20c34ee8bbe7709eaed1e8c4/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '962860458231487245'
+lifecycle_stage: active
+run_id: 50725c3d20c34ee8bbe7709eaed1e8c4
+run_name: adaptable-midge-439
+run_uuid: 50725c3d20c34ee8bbe7709eaed1e8c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735814353330
+status: 1
+tags: []
+user_id: Kartik Nimhan

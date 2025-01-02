@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/My%20projects/Medical%20Insurane%20Predictor/mlruns/962860458231487245/70eee8b34d6549df90aa50a445309397/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '962860458231487245'
+lifecycle_stage: active
+run_id: 70eee8b34d6549df90aa50a445309397
+run_name: gentle-fowl-359
+run_uuid: 70eee8b34d6549df90aa50a445309397
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735746530792
+status: 1
+tags: []
+user_id: Kartik Nimhan

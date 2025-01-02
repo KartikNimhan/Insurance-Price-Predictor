@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/My%20projects/Medical%20Insurane%20Predictor/mlruns/962860458231487245/e5c7eb4824ff42edbbbb37398539b6ac/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '962860458231487245'
+lifecycle_stage: active
+run_id: e5c7eb4824ff42edbbbb37398539b6ac
+run_name: glamorous-gnu-210
+run_uuid: e5c7eb4824ff42edbbbb37398539b6ac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735746775557
+status: 1
+tags: []
+user_id: Kartik Nimhan

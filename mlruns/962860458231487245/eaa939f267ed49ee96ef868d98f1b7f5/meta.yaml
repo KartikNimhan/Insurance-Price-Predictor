@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/My%20projects/Medical%20Insurane%20Predictor/mlruns/962860458231487245/eaa939f267ed49ee96ef868d98f1b7f5/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '962860458231487245'
+lifecycle_stage: active
+run_id: eaa939f267ed49ee96ef868d98f1b7f5
+run_name: inquisitive-wolf-814
+run_uuid: eaa939f267ed49ee96ef868d98f1b7f5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735814651425
+status: 1
+tags: []
+user_id: Kartik Nimhan

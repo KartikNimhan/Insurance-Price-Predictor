@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/559956593823486402
+creation_time: 1735824147073
+experiment_id: '559956593823486402'
+last_update_time: 1735824147073
+lifecycle_stage: active
+name: insurance_predictor

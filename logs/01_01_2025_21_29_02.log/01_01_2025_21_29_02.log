@@ -1,0 +1,14 @@
+[ 2025-01-01 21:29:04,039 ] 49 root - INFO - Setting up MLflow...
+[ 2025-01-01 21:29:04,061 ] 58 root - INFO - MLflow setup completed with experiment: Medical Insurance Predictor
+[ 2025-01-01 21:29:04,062 ] 87 root - INFO - Starting data ingestion...
+[ 2025-01-01 21:29:07,273 ] 20 root - INFO - Data downloaded successfully to D:/My projects/Medical Insurane Predictor/data/raw_data\insurance.csv
+[ 2025-01-01 21:29:07,274 ] 91 root - INFO - Starting data preprocessing...
+[ 2025-01-01 21:29:07,306 ] 35 root - INFO - Data preprocessed and saved to D:/My projects/Medical Insurane Predictor/data/Processed_data\processed_data.csv
+[ 2025-01-01 21:29:07,306 ] 95 root - INFO - Starting model training...
+[ 2025-01-01 21:29:08,014 ] 25 root - INFO - Data loaded successfully.
+[ 2025-01-01 21:29:08,014 ] 29 root - INFO - Missing values handled.
+[ 2025-01-01 21:29:08,015 ] 36 root - INFO - Categorical variables encoded.
+[ 2025-01-01 21:29:08,018 ] 71 root - ERROR - An error occurred during model training: Run with UUID b08b16832afe4201b8cfc95787d7a1be is already active. To start a new run, first end the current run with mlflow.end_run(). To start a nested run, call start_run with nested=True
+[ 2025-01-01 21:29:12,159 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E6B80A3A30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/get?run_uuid=b08b16832afe4201b8cfc95787d7a1be&run_id=b08b16832afe4201b8cfc95787d7a1be
+[ 2025-01-01 21:29:20,314 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E6B80A38B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/get?run_uuid=b08b16832afe4201b8cfc95787d7a1be&run_id=b08b16832afe4201b8cfc95787d7a1be
+[ 2025-01-01 21:29:32,874 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E6B80A3760>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/get?run_uuid=b08b16832afe4201b8cfc95787d7a1be&run_id=b08b16832afe4201b8cfc95787d7a1be

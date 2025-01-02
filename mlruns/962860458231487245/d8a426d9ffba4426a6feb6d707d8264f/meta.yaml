@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/My%20projects/Medical%20Insurane%20Predictor/mlruns/962860458231487245/d8a426d9ffba4426a6feb6d707d8264f/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '962860458231487245'
+lifecycle_stage: active
+run_id: d8a426d9ffba4426a6feb6d707d8264f
+run_name: fearless-snipe-844
+run_uuid: d8a426d9ffba4426a6feb6d707d8264f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735814941333
+status: 1
+tags: []
+user_id: Kartik Nimhan

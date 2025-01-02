@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/My%20projects/Medical%20Insurane%20Predictor/mlruns/962860458231487245/15d84bfc09cb4de38cb3d0a053ad6be2/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '962860458231487245'
+lifecycle_stage: active
+run_id: 15d84bfc09cb4de38cb3d0a053ad6be2
+run_name: loud-trout-941
+run_uuid: 15d84bfc09cb4de38cb3d0a053ad6be2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735746883561
+status: 1
+tags: []
+user_id: Kartik Nimhan

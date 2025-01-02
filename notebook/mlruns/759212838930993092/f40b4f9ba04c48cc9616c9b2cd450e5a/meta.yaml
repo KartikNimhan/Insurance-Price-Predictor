@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/My%20projects/Medical%20Insurane%20Predictor/notebook/mlruns/759212838930993092/f40b4f9ba04c48cc9616c9b2cd450e5a/artifacts
+end_time: 1735490921151
+entry_point_name: ''
+experiment_id: '759212838930993092'
+lifecycle_stage: active
+run_id: f40b4f9ba04c48cc9616c9b2cd450e5a
+run_name: rumbling-sow-578
+run_uuid: f40b4f9ba04c48cc9616c9b2cd450e5a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735490921058
+status: 4
+tags: []
+user_id: Kartik Nimhan

@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/My%20projects/Medical%20Insurane%20Predictor/mlruns/962860458231487245/60c6912b627a4dbfac90b73146a23e65/artifacts
+end_time: 1735824430785
+entry_point_name: ''
+experiment_id: '962860458231487245'
+lifecycle_stage: active
+run_id: 60c6912b627a4dbfac90b73146a23e65
+run_name: nervous-snail-821
+run_uuid: 60c6912b627a4dbfac90b73146a23e65
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735824428602
+status: 4
+tags: []
+user_id: Kartik Nimhan

@@ -1,0 +1,13 @@
+[ 2025-01-02 16:07:09,706 ] 49 root - INFO - Setting up MLflow...
+[ 2025-01-02 16:07:09,735 ] 58 root - INFO - MLflow setup completed with experiment: Medical Insurance Predictor
+[ 2025-01-02 16:07:09,735 ] 87 root - INFO - Starting data ingestion...
+[ 2025-01-02 16:07:13,607 ] 20 root - INFO - Data downloaded successfully to D:/My projects/Medical Insurane Predictor/data/raw_data\insurance.csv
+[ 2025-01-02 16:07:13,609 ] 91 root - INFO - Starting data preprocessing...
+[ 2025-01-02 16:07:13,680 ] 35 root - INFO - Data preprocessed and saved to D:/My projects/Medical Insurane Predictor/data/Processed_data\processed_data.csv
+[ 2025-01-02 16:07:13,681 ] 95 root - INFO - Starting model training...
+[ 2025-01-02 16:07:15,134 ] 25 root - INFO - Data loaded successfully.
+[ 2025-01-02 16:07:15,137 ] 29 root - INFO - Missing values handled.
+[ 2025-01-02 16:07:15,140 ] 36 root - INFO - Categorical variables encoded.
+[ 2025-01-02 16:07:15,144 ] 71 root - ERROR - An error occurred during model training: Run with UUID 7fafd96803624b04ac1d4ad933297257 is already active. To start a new run, first end the current run with mlflow.end_run(). To start a nested run, call start_run with nested=True
+[ 2025-01-02 16:07:19,270 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7BEE63550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/get?run_uuid=7fafd96803624b04ac1d4ad933297257&run_id=7fafd96803624b04ac1d4ad933297257
+[ 2025-01-02 16:07:27,959 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F7BEE633D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/get?run_uuid=7fafd96803624b04ac1d4ad933297257&run_id=7fafd96803624b04ac1d4ad933297257
