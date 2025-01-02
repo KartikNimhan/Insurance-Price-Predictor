@@ -4,21 +4,19 @@ import joblib
 import numpy as np
 import os
 
-# Check if the code is running in Docker by looking for a specific file or environment variable
-if os.path.exists("/.dockerenv"):  # This is a common file inside Docker containers
-    # Inside Docker container, use the path relative to the container
+
+if os.path.exists("/.dockerenv"): 
     model_path = '/app/models/insurance_price_predictor.pkl'
 else:
-    # Running locally, use the path on your local machine
     model_path = 'D:/My projects/Medical Insurane Predictor/notebook/mlruns/models/insurance_price_predictor.pkl'
 
-# Load the model
+
 model = joblib.load(model_path)
 
-# Streamlit app interface
+
 st.set_page_config(page_title="Insurance Price Prediction", page_icon="💰", layout="wide")
 
-# Add some custom CSS for styling
+
 st.markdown("""
     <style>
     .title {
@@ -68,10 +66,10 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Title of the app
+
 st.markdown('<p class="title">Insurance Price Prediction</p>', unsafe_allow_html=True)
 
-# User Inputs
+
 age = st.number_input("Age", min_value=18, max_value=100, value=30, step=1, key="age")
 sex = st.selectbox("Sex", ["Male", "Female"], key="sex")
 bmi = st.number_input("BMI", min_value=10.0, max_value=50.0, value=25.0, step=0.1, key="bmi")
@@ -79,24 +77,21 @@ children = st.number_input("Number of Children", min_value=0, max_value=10, valu
 smoker = st.selectbox("Smoker", ["Yes", "No"], key="smoker")
 region = st.selectbox("Region", ["southwest", "southeast", "northwest", "northeast"], key="region")
 
-# Encoding categorical variables
+
 sex = 1 if sex == "Male" else 0
 smoker = 1 if smoker == "Yes" else 0
 region_mapping = {"southwest": 0, "southeast": 1, "northwest": 2, "northeast": 3}
 region = region_mapping[region]
 
-# Create input DataFrame
+
 input_data = pd.DataFrame([[age, sex, bmi, children, smoker, region]], columns=["age", "sex", "bmi", "children", "smoker", "region"])
 
-# Predict button
+
 if st.button("Predict Insurance Charges", key="predict_btn"):
-    # Make prediction in INR (as the model is already trained on INR data)
     prediction = model.predict(input_data)
 
-    # Display the result in a beautiful format
     st.markdown(f'<p class="result">Predicted Insurance Charge: ₹{prediction[0]:,.2f}</p>', unsafe_allow_html=True)
 
-    # Additional recommendation or message
     st.markdown("""
         <div class="tip-box">
             <p class="subheader">Tip:</p>

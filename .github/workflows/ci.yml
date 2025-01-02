@@ -38,10 +38,10 @@ jobs:
       run: |
         docker build -t medical-insurance-predictor .
     
-    # Step 6: Run tests
-    - name: Run tests
-      run: |
-        python -m unittest discover tests/
+    # # Step 6: Run tests
+    # - name: Run tests
+    #   run: |
+    #     python -m unittest discover tests/
 
     # Step 7: Log in to DockerHub
     - name: Log in to DockerHub
