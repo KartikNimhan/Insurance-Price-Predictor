@@ -83,12 +83,12 @@ This will start the application inside a Docker container.
 ### Step 5: Run from Docker Hub (Preferred Method)**
 To simplify deployment, the project is also available on Docker Hub. You can directly pull the Docker image and run it without setting up the code manually.
 
-**1. **Pull the Docker Image**
+1. **Pull the Docker Image**
 Use the following command to pull the Docker image:
 ```bash
 docker pull kartik8/medical-insurance-predictor
 ```
-**2. **Run the Docker Container**
+2. **Run the Docker Container**
 Run the container using the following command:
 ```bash
 docker run -p 5000:5000 kartik8/medical-insurance-predictor
